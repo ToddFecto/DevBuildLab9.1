@@ -18,6 +18,21 @@ namespace Lab9_1_Personal_Website.Controllers
             _logger = logger;
         }
 
+        public IActionResult Home()
+        {
+            return View();
+        }
+
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Portfolio()
+        {
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();
